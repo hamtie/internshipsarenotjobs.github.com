@@ -1,1 +1,1 @@
-Source code home for [internships are not jobs](internshipsarenotjobs.com).
+Source code home for [internships are not jobs](internshipsarenotjobs.org).

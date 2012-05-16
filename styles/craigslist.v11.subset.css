@@ -347,7 +347,7 @@ color: #00E;
 /* Extras */
 #social { 
     float: right; 
-    top: 5%;
+    top: 8%;
     position: absolute;
     right: 10px;
 }
@@ -382,4 +382,8 @@ color: #00E;
 
 .faux-visit {
     color: #551A8B !important;
+}
+
+.addthis_counter {
+    float: right;
 }

@@ -372,7 +372,7 @@ font-size: 17px;
 }
 
 #slides {
-    width: 70%;
+    width: 600px;
     float: right;
     background: #f4f4f4;
     padding: 15px;
@@ -405,7 +405,7 @@ font-size: 17px;
 }
 
 .slides_container {
-    width: 75%;
+    width: 570px;
     height: 75%;
     display: block;
 }
@@ -416,28 +416,28 @@ font-size: 17px;
     display:block;
 }
 
-/\* .pagination { \*/
-/\* 	margin:26px auto 0; \*/
-/\* 	width:100px; \*/
-/\* } \*/
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
 
-/\* .pagination li { \*/
-/\* 	float:left; \*/
-/\* 	margin:0 1px; \*/
-/\* 	list-style:none; \*/
-/\* } \*/
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
 
-/\* .pagination li a { \*/
-/\* 	display:block; \*/
-/\* 	width:12px; \*/
-/\* 	height:0; \*/
-/\* 	padding-top:12px; \*/
-/\* 	background-image:url(../img/pagination.png); \*/
-/\* 	background-position:0 0; \*/
-/\* 	float:left; \*/
-/\* 	overflow:hidden; \*/
-/\* } \*/
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
 
-/\* .pagination li.current a { \*/
-/\* 	background-position:0 -12px; \*/
-/\* } \*/
+.pagination li.current a {
+	background-position:0 -12px;
+}

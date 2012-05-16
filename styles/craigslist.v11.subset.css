@@ -345,13 +345,14 @@ color: #00E;
 
 
 /* Extras */
-#ef { 
+#social { 
     float: right; 
-    top: 25%;
+    top: 5%;
     position: absolute;
     right: 10px;
 }
 
+#social a:hover { background: white; }  
 
 #content-float {
     -webkit-box-sizing: border-box;

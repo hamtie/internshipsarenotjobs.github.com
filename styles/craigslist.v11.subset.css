@@ -77,30 +77,36 @@ td.head {
  HOMEPAGES
  *********/
 
-.hp { font-family: sans-serif; }
 
-.hp * { padding: 0;  margin: 0; }
 
-.hp #container {
+#content { 
+    font-family: sans-serif; 
+    display: inline-block;
+    width: 960px;
+}
+
+#content * { padding: 0;  margin: 0; }
+
+#content #container {
     border-spacing: 10px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
-.hp .ban a { display: block; padding: 0 5px; }
-.hp .ban a:hover { background: white; }
+#content .ban a { display: block; padding: 0 5px; }
+#content .ban a:hover { background: white; }
 
-.hp td, .hp a { white-space:nowrap; }
-.hp a { text-decoration:none; }
-.hp a:hover { color:purple; }
+#content td, #content a { white-space:nowrap; }
+#content a { text-decoration:none; }
+#content a:hover { color:purple; }
 
-.hp td { vertical-align: top; }
+#content td { vertical-align: top; }
 
-.hp ul { list-style: none; }
+#content ul { list-style: none; }
 
-.hp div.cats { position: relative; }
+#content div.cats { position: relative; }
 
-.hp .col ul {
+#content .col ul {
     display: table-cell;
     font-size: smaller;
     list-style: none;
@@ -108,27 +114,29 @@ td.head {
     padding-bottom: 1em;
 }
 
-.hp .col h4 { 
+#content .col h4 { 
      text-align:center;
      margin-bottom: 3px; 
      color: #0000FF;
+     font-size: 23px;
 }
 
-.hp div#ppp ul,
-.hp div#hhh ul,
-.hp div#jjj ul { width: 100%; display: block;}
+#content div#ppp ul,
+#content div#hhh ul,
+#content div#jjj ul { width: 100%; display: block;}
 
-.hp .col ul li {
+#content .col ul li {
 position: relative;
 width: 100%;
 display: block;
 padding: 0 0 1px 0;
 border-bottom: 1px solid #EAEAEA;
 color: #00E;
+font-size: 17px;
 }
 
 /* trailing comma intentional for ie */
-.hp .col ul, {
+#content .col ul, {
     display: inline !important;
     zoom: 1;
     vertical-align: top;
@@ -136,15 +144,15 @@ color: #00E;
     position: relative;
 }
 
-.hp div#forums ul { font-size: 72%; }
+#content div#forums ul { font-size: 72%; }
 /* trailing comma intentional for ie */
-.hp div#forums ul, { width: 31%; }
+#content div#forums ul, { width: 31%; }
 
-.hp .col ul li {
+#content .col ul li {
     padding-right: 8px;
 }
 
-.hp .col ul li a {
+#content .col ul li a {
     position: relative;
     width: 100%;
     display: block;
@@ -152,119 +160,119 @@ color: #00E;
     border-bottom: 1px solid #eaeaea;
 }
 
-.hp .col ul li a:hover {
+#content .col ul li a:hover {
     border-bottom: 1px solid #ccc;
     background: #eee;
 }
 
 
-.hp #leftbar, .hp #rightbar {
+#content #leftbar, #content #rightbar {
     margin: 0 10px;
     background: #f4f4f4;
     border-left: 1px #ccc solid;
     border-right: 1px #ccc solid;
 }
 
-.hp #leftbar {
+#content #leftbar {
     text-align: center;
     font-size: smaller;
 }
 
-.hp #leftbar * {
+#content #leftbar * {
     margin-left: auto;
     margin-right: auto;
 }
 
-.hp #leftbar li, .hp #leftbar a { padding: 2px; }
+#content #leftbar li, #content #leftbar a { padding: 2px; }
 
-.hp #leftbar li:hover,
-.hp #leftbar a:hover,
-.hp #rightbar ul.acitem > li > a:hover { background: white; }
+#content #leftbar li:hover,
+#content #leftbar a:hover,
+#content #rightbar ul.acitem > li > a:hover { background: white; }
 
-.hp #rightbar ul.acitem > li.cont:hover { background: transparent !important; }
+#content #rightbar ul.acitem > li.cont:hover { background: transparent !important; }
 
-.hp #rightbar h5.active { background: white; }
+#content #rightbar h5.active { background: white; }
 
 /* trailing comma intentional for ie */
-.hp #rightbar > ul.acitem > li, { margin-bottom: -1em; }
+#content #rightbar > ul.acitem > li, { margin-bottom: -1em; }
 
-.hp #leftlinks { margin-top: 2em; }
+#content #leftlinks { margin-top: 2em; }
 
-.hp #leftlinks li {
+#content #leftlinks li {
     margin: 4px;
 }
 
-.hp #logo {
+#content #logo {
     font-size: 235%;
     font-weight: 500;
     font-family: serif;
     width: 100%;
 }
 
-.hp #main { width: 100%; }
-.hp #main td { padding: 0 10px; }
+#content #main { width: 100%; }
+#content #main td { padding: 0 10px; }
 
-.hp div#calttl {
+#content div#calttl {
     background: transparent;
     border: 0;
     margin: 2px;
 }
 
-.hp div#calttl a:hover,
-.hp #logo a:hover { background: transparent !important }
+#content div#calttl a:hover,
+#content #logo a:hover { background: transparent !important }
 
-.hp table.cal { background: #ccc; }
+#content table.cal { background: #ccc; }
 
-.hp .cal {
+#content .cal {
     margin: 0 10px;
     text-align: center;
 }
 
-.hp .cal a { padding: 1px !important; }
-.hp .cal a:hover { background: transparent !important; }
+#content .cal a { padding: 1px !important; }
+#content .cal a:hover { background: transparent !important; }
 
-.hp .cal .dys th  {
+#content .cal .dys th  {
     font-weight:bold;
     color: #555;
 }
-.hp .cal td  {
+#content .cal td  {
     background: white;
     padding: 2px;
 }
 
-.hp .cal td:hover {
+#content .cal td:hover {
     background: #eee;
 }
 
-.hp .cal td.tdy {
+#content .cal td.tdy {
     background: #ffc;
     font-weight:bold;
 }
 
-.hp #postlks {
+#content #postlks {
     margin: 15px 0;
 }
 
-.hp #postlks li {
+#content #postlks li {
     margin: 4px;
     font-size: normal;
     font-weight: 500;
 }
 
-.hp #search {
+#content #search {
     margin: 20px 10px;
     text-align: left;
 }
 
-.hp #search div {
+#content #search div {
     text-align: center;
 }
 
-.hp #search #query { width: 98%; }
-.hp #search select { width: 75%; }
+#content #search #query { width: 98%; }
+#content #search select { width: 75%; }
 
-.hp #topban {
-    height: 2em;
+#content #topban {
+    height: 2.5em;
     margin-bottom: 1em;
     padding: 3px;
     font-weight: normal;
@@ -272,33 +280,34 @@ color: #00E;
 }
 
 /* trailing comma intentional for ie */
-.hp #topban, {
+#content #topban, {
     margin-left: 1em; 
     margin-right: 1em;
 }
 
-.hp #topban h2 {
+#content #topban h2 {
     text-align:left;
     margin-right: 1em;
     display: inline;
     font-weight: normal;
     font-family: serif;
+    font-size: 35px;
 }
 
-.hp #topban .sublinks {
+#content #topban .sublinks {
     font-size:72%;
 }
 
-.hp #topban a { display: inline; }
+#content #topban a { display: inline; }
 
-.hp #topban .sublinks a {
+#content #topban .sublinks a {
     padding: 2px 5px;
     background: white;
     margin: 1px 3px;
 }
-.hp #topban .sublinks span { margin: 3px 7px; }
+#content #topban .sublinks span { margin: 3px 7px; }
 
-.hp #rightbar {
+#content #rightbar {
     font-size:70%;
     line-height: 1.43em;
     vertical-align: top;
@@ -306,53 +315,55 @@ color: #00E;
     min-width: 11em;
 }
 
-.hp #rightbar #langlinks {
+#content #rightbar #langlinks {
     text-align: center;
     height: 2em;
     padding: 8px;
     font-size: small;
 }
 
-.hp #rightbar h5 {
+#content #rightbar h5 {
     background: transparent;
     color: blue;
 }
 
-.hp #rightbar h5.active {
+#content #rightbar h5.active {
     color: inherit;
 }
 
-.hp #rightbar h5.ctry {
+#content #rightbar h5.ctry {
     background: #ffc;
     border-color: #ddd;
 }
 
-.hp #rightbar h5.hot { cursor: pointer; }
-.hp #rightbar h5.hot:hover { background: white; }
+#content #rightbar h5.hot { cursor: pointer; }
+#content #rightbar h5.hot:hover { background: white; }
 
-.hp #rightbar h5.hot.ctry:hover,
-.hp #rightbar h5.hot.ctry.active,
-.hp #rightbar h5.hot.ctry.active:hover { background: #ff8; }
+#content #rightbar h5.hot.ctry:hover,
+#content #rightbar h5.hot.ctry.active,
+#content #rightbar h5.hot.ctry.active:hover { background: #ff8; }
 
-.hp #rightbar ul { margin: 4px; list-style: none; }
+#content #rightbar ul { margin: 4px; list-style: none; }
 
-.hp #rightbar ul.menu li { display: none; }
+#content #rightbar ul.menu li { display: none; }
 
-.hp #rightbar ul.menu li.s,
-.hp #rightbar ul.menu li.s a { display: block; }
+#content #rightbar ul.menu li.s,
+#content #rightbar ul.menu li.s a { display: block; }
 
-.hp #rightbar ul.menu ul li.more { padding-left: 1em; font-style: italic; }
+#content #rightbar ul.menu ul li.more { padding-left: 1em; font-style: italic; }
 
 
 /* Extras */
 #social { 
     float: right; 
-    top: 8%;
+    top: 15%;
     position: absolute;
     right: 10px;
 }
 
-#social a:hover { background: none; }  
+#social a:hover { 
+    background: none; 
+}
 
 #content-float {
     -webkit-box-sizing: border-box;
@@ -377,7 +388,7 @@ color: #00E;
 }
 
 .cats {
-    opacity: 0.65;
+    opacity: 0.35;
 }
 
 .faux-visit {

@@ -387,6 +387,12 @@ font-size: 17px;
     margin:100px 0px 0px 50px;
 }
 
+#content-float {
+    -moz-box-shadow: 10px 10px 5px #6a6a8f;
+    -webkit-box-shadow: 10px 10px 5px #6a6a8f;
+    box-shadow: 10px 10px 5px #6a6a8f;
+}
+
 .cats {
     opacity: 0.35;
 }

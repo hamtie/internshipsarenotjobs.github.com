@@ -352,7 +352,7 @@ color: #00E;
     right: 10px;
 }
 
-#social a:hover { background: white; }  
+#social a:hover { background: none; }  
 
 #content-float {
     -webkit-box-sizing: border-box;

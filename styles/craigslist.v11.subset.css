@@ -367,8 +367,10 @@ font-size: 17px;
 #slides {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
+    box-sizing: border-box;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 3px;
 }
 
 #slides {
@@ -376,20 +378,24 @@ font-size: 17px;
     float: right;
     background: #f4f4f4;
     padding: 15px;
-    min-height: 250px;
+    min-height: 200px;
     overflow: hidden;
     position: absolute;
-    box-sizing: border-box;
-    border-radius: 15px;
-    border-top: 1px solid #CCC;
     z-index: 2;
     margin:100px 0px 0px 50px;
+    border-top: 2px solid #CCC;
+    border-bottom: 2px solid #CCC;
+
 }
 
 #slides {
     -moz-box-shadow: 10px 10px 5px #6a6a8f;
     -webkit-box-shadow: 10px 10px 5px #6a6a8f;
     box-shadow: 10px 10px 5px #6a6a8f;
+}
+
+#slides p {
+	font-size: 14px;
 }
 
 .cats {
@@ -440,4 +446,8 @@ font-size: 17px;
 
 .pagination li.current a {
 	background-position:0 -12px;
+}
+
+.next {
+  float: right;
 }

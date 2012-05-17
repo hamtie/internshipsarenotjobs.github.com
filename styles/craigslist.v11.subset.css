@@ -378,7 +378,6 @@ font-size: 17px;
     float: right;
     background: #f4f4f4;
     padding: 15px;
-    min-height: 200px;
     overflow: hidden;
     position: absolute;
     z-index: 2;
@@ -408,7 +407,6 @@ font-size: 17px;
 
 .slides_container {
     width: 570px;
-    height: 340px;
     display: block;
 }
 

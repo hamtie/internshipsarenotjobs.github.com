@@ -389,13 +389,9 @@ font-size: 17px;
 }
 
 #slides {
-    -moz-box-shadow: 10px 10px 5px #6a6a8f;
-    -webkit-box-shadow: 10px 10px 5px #6a6a8f;
-    box-shadow: 10px 10px 5px #6a6a8f;
-}
-
-#slides p {
-	font-size: 14px;
+    -moz-box-shadow: 10px 10px 20px #6a6a8f;
+    -webkit-box-shadow: 10px 10px 20px #6a6a8f;
+    box-shadow: 10px 10px 20px #6a6a8f;
 }
 
 .cats {
@@ -430,5 +426,19 @@ font-size: 17px;
   float: right;
 }
 
-#slides_title {
+.slide {
+    font-size: 14px;
+}
+
+.slide .header {
+    font-weight:bold;
+}
+.slide .header #date {
+    font-size: 11px;
+    display: inline;    
+    font: symbol;
+}
+.slide .header #addressee {
+    display: inline;
+    color: #2aa00f;
 }
